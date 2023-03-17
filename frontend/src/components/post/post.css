@@ -1,0 +1,120 @@
+.post{
+    margin-top: 15px;
+    width: 100%;
+    /* background-color: aqua; */
+    background-color: #ffffff !important;
+    /* -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.25); 
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.25); */
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
+
+.postWrapper{
+
+}
+.postTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.postTopLeft{
+    display: flex;
+    align-items: center;
+}
+.postUser{
+    display: flex;
+    
+}
+
+.iconButton{
+    cursor: pointer;
+}
+
+.postProfileImg{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.postProfileImg:hover{
+    opacity: 70%;
+}
+
+.postUserName{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+.postTime{
+    font-size: 12px;
+}
+.postTopRight{
+
+}
+
+.postTopRightIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.postTopRightIcon:hover{
+    color:#65676b;
+}
+
+.postCenter{
+    margin: 10px 0;
+}
+
+.postText{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.postCenterImg{
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.postBottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+}
+
+.postBottomRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBottomRight,
+.postLikeCounter{
+    font-size: 14px;
+    color: #65676b;
+    cursor: pointer;
+}
+
+.postLikeCounter{
+    margin-left: 5px;
+}
+
+
+.postLikeCounter:hover,
+.postCommentText:hover,
+.postShareText:hover{
+    text-decoration: underline;
+
+}
+
+.postCommentText{
+    margin-right: 10px;
+}
