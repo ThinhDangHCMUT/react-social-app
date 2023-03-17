@@ -39,7 +39,7 @@ Run backend:
   cd backend
   nodemon index.js
 ```
-##Features
+## Features
 - Login/Logout
 - Follow/Unfollow user
 - View Timeline
